@@ -20,6 +20,7 @@ export function NavBar() {
         element.scrollIntoView({ behavior: "smooth" });
       }
       setActiveSection(target);
+      setIsOpen(false);
     }
   }
 

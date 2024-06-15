@@ -177,6 +177,7 @@
   span .cuadro_estado {
     justify-items: center;
     font-size: 60%;
+    display: block;
   }
 
   .cuadro_sobremi{
