@@ -43,7 +43,7 @@ export function NavBar() {
                 onClick={(e) => handleNavigation(e, "inicio")}
                 className={activeSection === "inicio" ? "active" : ""}
               >
-                Inicio
+                Home
               </a>
             </li>
             <li>
@@ -52,7 +52,7 @@ export function NavBar() {
                 onClick={(e) => handleNavigation(e, "sobremi")}
                 className={activeSection === "sobremi" ? "active" : ""}
               >
-                Sobre mi
+                About
               </a>
             </li>
             <li>
@@ -70,7 +70,7 @@ export function NavBar() {
                 onClick={(e) => handleNavigation(e, "experiencia")}
                 className={activeSection === "experiencia" ? "active" : ""}
               >
-                Experiencia
+                Experience
               </a>
             </li>
             <li>
@@ -79,7 +79,7 @@ export function NavBar() {
                 onClick={(e) => handleNavigation(e, "proyectos")}
                 className={activeSection === "proyectos" ? "active" : ""}
               >
-                Proyectos
+                Projects
               </a>
             </li>
           </ul>

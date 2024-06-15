@@ -111,6 +111,14 @@
   opacity: 1;
   animation: moverdelado2 1s ease-out forwards;
 }
+.link_github{
+  color: black;
+  font-weight: bold;
+}
+
+.link_github:hover{
+color: green;
+}
 
 @keyframes moverdelado2 {
   from {

@@ -12,7 +12,7 @@ export function Inicio() {
       </div>    
       <div className="cuadro_nombre">
         <span>
-          Hola, Soy Leonardo Aguilar<span className="emoji">👋</span> <span className="cuadro_estado">Disponible para Trabajar</span>
+          Hi, I'm Leonardo Aguilar<span className="emoji">👋</span> <span className="cuadro_estado">Available to work</span>
         </span>
          <ul className="lista_ul">
             <a href="https://github.com/ElScrap" className="mis-redes" target="_blank"><img src={imgGithub} alt="git" /></a>

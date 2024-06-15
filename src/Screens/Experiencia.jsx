@@ -33,7 +33,7 @@ export function Experiencia() {
   }, []);
   return (
     <div id="experiencia" className="div_experiencia">
-      <div className="div_titulo"> EXPERIENCIA</div>
+      <div className="div_titulo"> EXPERIENCE</div>
 
       <article className="article_card_experiencia" ref={historiaRef}>
         <div className="div_cards_experiencia">
@@ -49,17 +49,17 @@ export function Experiencia() {
               <div className="informacion_fecha_experiencia">
                 <p>
                   <img src={icoMap} alt="linke" />
-                  Pasantias/Remoto
+                  Internships/Remote
                 </p>
                 <p>
-                  <img src={icoClock} alt="linke" />3 meses
+                  <img src={icoClock} alt="linke" />3 mounths
                 </p>
               </div>
               <br />
               <hr />
               <div className="div_parrafo_experiencia">
                 <p>
-                  Al realizar pasantias en esta prestigiosa empresa, he aprendido a desarrollar software utilizando el lenguaje de programación PHP y la base de datos phpMyAdmin para gestionar los datos. Aquí, realicé el desarrollo de un módulo de facturación.
+                While doing internships at this prestigious company, I have learned how to develop software using the PHP programming language and the phpMyAdmin database to manage the data. Here, I developed an invoicing module.
                 </p>
               </div>
             </div>
@@ -77,17 +77,17 @@ export function Experiencia() {
               <div className="informacion_fecha_experiencia">
                 <p>
                   <img src={icoMap} alt="linke" />
-                  Pasantias/Remoto
+                  Internships/Remote
                 </p>
                 <p>
-                  <img src={icoClock} alt="linke" />3 meses
+                  <img src={icoClock} alt="linke" />3 mounths
                 </p>
               </div>
               <br />
               <hr />
               <div className="div_parrafo_experiencia">
                 <p>
-                Durante mis pasantías en esta empresa, tuve la oportunidad de aprender a utilizar la biblioteca React. Aquí desarrollé el Front-End para la actualización de datos de clientes que iban a ser ingresados en la empresa.
+                During my internships at this company, I had the opportunity to learn how to use the React library. Here I developed the Front-End for updating customer data that was going to be entered into the company.
                 </p>
               </div>
             </div>

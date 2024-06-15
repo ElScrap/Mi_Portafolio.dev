@@ -33,7 +33,7 @@ export function Proyectos() {
   }, []);
   return (
     <div id="proyectos" className="div_Proyectos">
-      <div className="div_titulo_proyectos">Projects</div>
+      <div className="div_titulo_proyectos">PROJECTS</div>
 
       <article className="article_card_proyectos" ref={historiaRef}>
         <div className="div_cards_proyecto">
@@ -43,18 +43,15 @@ export function Proyectos() {
                 <img src={imgSW} alt="sistemaweb" />
               </div>
               <div>
-                <p className="h6_tema">Sistema de Administración</p>
+                <p className="h6_tema">MANAGEMENT SYSTEM</p>
                 <p className="titulo_proyecto">
-                  Sistema Web para el bloqueo de Dispositivos Moviles con IoT{" "}
+                Web System for Blocking Mobile Devices with IoT
                 </p>
                 <hr />
                 <p className="parrafo_proyecto">
-                  Este sistema web sirve para dar un tiempo de uso a los
-                  dispositivos moviles que tengan una app que se ha creado para
-                  que pueda conectarse con el sistema web, una vez instalada la
-                  app se puede ver la ubicacion y bloquear el dispositivo.
+                This web system serves to give a time of use to the mobile devices that have an app that has been created for that can connect to the web system, once the App you can see the location and lock the device.
                   <br />
-                  Ver repositorio <a href="">Github</a>
+                  View repository <a href="https://github.com/ElScrap/Sistema-Web-IoT.git" target="_blank" className="link_github">Github</a>
                 </p>
               </div>
             </div>
@@ -65,15 +62,15 @@ export function Proyectos() {
                 <img src={imgPF} alt="sistemaweb" />
               </div>
               <div>
-                <p className="h6_tema">INFORMACIÓN</p>
+                <p className="h6_tema">INFORMATION</p>
                 <p className="titulo_proyecto">
-                  Mi Portafolio
+                  My Portfolio
                 </p>
                 <hr />
                 <p className="parrafo_proyecto">
-                  Este es mi sitio web el cual contiene todos mis datos sobre mi educacion, experiecia, certificados y proyectos que he realizo y adquirido a lo largo de mi formación como Desarrollador web.
+                This is my website which contains all my data about my education, experience, certificates and projects that I have done and acquired throughout my training as a Web Developer.
                   <br />
-                  Ver repositorio <a href="">Github</a>
+                  View repository <a href="https://github.com/ElScrap/Mi_Portafolio.dev.git" target="_blank" className="link_github">Github</a>
                 </p>
               </div>
             </div>

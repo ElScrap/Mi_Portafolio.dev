@@ -38,11 +38,11 @@ export function Footer() {
         </p>
       </div>
 
-      <div className="div_Contacto">Contactame: <br /><a className="nav-link" href="mailto:Leonardo-aguilar@hotmail.es" target="_blank">Leonardo-aguilar@hotmail.es</a>
+      <div className="div_Contacto">Contact me: <br /><a className="nav-link" href="mailto:Leonardo-aguilar@hotmail.es" target="_blank">Leonardo-aguilar@hotmail.es</a>
       </div>
 
       <div className="div_masinformacion">
-      Mas Información: <br />
+      More Informatión: <br />
       <div className="div_redes_phone"><a href="https://github.com/ElScrap" className="mis-redes-footer" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/leonardo-aguilar-ordo%C3%B1ez-ab4753141/" className="mis-redes-footer" target="_blank">Linkedin</a>
             <a href="https://drive.google.com/file/d/1OMxtgjGYqP9it0mCbQFRmZ2qTx0qKW1m/view?usp=drive_link" className="mis-redes-footer" target="_blank">CV</a>

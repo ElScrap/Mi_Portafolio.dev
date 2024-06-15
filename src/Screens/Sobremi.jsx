@@ -48,29 +48,20 @@ export function Sobremi() {
 
   return (
     <div id="sobremi" className="div_sobremi">
-      <div className="div_titulo_sobremi">SOBRE MI</div>
+      <div className="div_titulo_sobremi">ABOUT ME</div>
       <div className="div_historia">
         <article className="card" ref={historiaRef}>
           <div className="card-body">
-            <span className="span_historia">Mi Historia</span>
+            <span className="span_historia">MY STORY</span>
             <br />
             <p className="txt_descripcion">
-              Soy una persona que le gusta mucho la tecnología y aprender de
-              ella, desde pequeño empece a desarmar juguetes electronicos para
-              saber que tenian dentro de ellos, en el colegio estudie
-              electricidad y una vez que entre a la universidad aprendi mucho
-              sobre la logica de la programacion y sus diferentes tipos de
-              lenguajes, ademas de poder desarrollar software y diferentes
-              proyectos con la Tecnología IoT, en mis tiempos libres me gusta
-              aprender nuevas tecnologias y realizar proyectos electronicos para
-              poner a prueba mis conocimientos y porque no aprender aun
-              mas.
+            I am a person who really likes technology and learning from it. Since I was little, I started to disassemble electronic toys to find out what they had inside them. In school, I studied electricity, and once I entered university, I learned a lot about the logic of programming and its different types of languages. In addition, I was able to develop software and different projects with IoT technology. In my free time, I like to learn new technologies and carry out electronic projects to test my knowledge and, why not, learn even more.
             </p>
           </div>
         </article>
         <article className="card" ref={skillsRef}>
           <div className="div_skills">
-            <span className='span_myskill'>My Skills</span>
+            <span className='span_myskill'>MY SKILLS</span>
             <div className="skill skill_html"><img src={imgHtml} alt="Css"/><h1>HTML</h1></div>
             <div className="skill skill_css"><img src={imgCss} alt="Html" /><h1>CSS</h1></div>
             <div className="skill skill_js"><img src={imgJs} alt="Css"/><h1>JAVASCRIPT</h1></div>
