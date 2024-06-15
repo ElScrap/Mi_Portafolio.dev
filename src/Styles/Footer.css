@@ -1,0 +1,63 @@
+.footer {
+  background-color: green;
+  color: beige;
+  text-align: center;
+  padding: 10px 0;
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+.div_p_footer {
+  width: 50%;
+  justify-content: left;
+}
+.p_footer a {
+  color: beige;
+  font-weight: bold;
+}
+
+.p_footer a:hover {
+  color: #7be105;
+  font-weight: bold;
+}
+
+.div_Contacto {
+  width: 50%;
+  text-align: center;
+}
+
+.div_masinformacion {
+  width: 50%;
+  justify-content: left;
+}
+
+.nav-link{
+  color: beige;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    height: 18%;
+    color: beige;
+  }
+}
+@media (max-width: 952px) {
+  .footer {
+    height: 15%;
+    color: beige;
+  }
+
+  .div_masinformacion {
+    width: 50%;
+    height: 90%;
+  }
+
+  .mis-redes-footer {
+    justify-content: center;
+    display: flex;
+    color: beige;
+    font-size: 20px;
+  }
+}

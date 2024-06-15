@@ -1,0 +1,350 @@
+.div_sobremi {
+  background: #6067612a;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.div_titulo_sobremi {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 40px;
+  font-weight: bold;
+  color: #7be105;
+  text-shadow: 6px 2px 6px #3166ff;
+  rotate: -6deg;
+  position: relative;
+  animation: animateDiv 2s linear infinite;
+}
+
+@keyframes animateDiv {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.div_historia {
+  padding: 3% 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+:root {
+  --border-color: linear-gradient(
+    to right,
+    rgb(105, 255, 71) 0%,
+    rgb(255, 0, 217) 100%
+  );
+  --card-color: #2b2626;
+}
+
+.card {
+  background: var(--border-color);
+  width: 100%;
+  height: 110%;
+  padding: 5px;
+  border-radius: 16px;
+}
+
+.card-body {
+  padding: 4%;
+  text-align: justify;
+  background: var(--card-color);
+  width: 100%;
+  color: white;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.span_historia {
+  display: block;
+  color: white;
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.div_skills {
+  display: grid;
+  gap: 2%;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  padding: 2%;
+  text-align: justify;
+  background: var(--card-color);
+  width: 100%;
+  color: white;
+  border-radius: 12px;
+  height: 100%;
+  justify-items: center;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 25px #7be105;
+}
+
+.span_myskill {
+  font-size: 180%;
+  grid-column: 1/-1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.txt_descripcion {
+  font-size: 170%;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #101010;
+  border-radius: 10%;
+  box-shadow: 16px 14px 20px #0000008c;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill:hover {
+  box-shadow: 0px 0px 25px #da05e1;
+}
+
+.skill h1 {
+  z-index: 2;
+  color: black;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.skill::before {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(to right, #f06 40%, #4a90e2 60%);
+}
+
+.skill::after {
+  content: "";
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  background-color: #f0eeee;
+  border-radius: 10%;
+  box-shadow: inset 16px 14px 20px #0000008c;
+}
+
+.skill:hover::before {
+  box-shadow: 0px 0px 25px #da05e1;
+  animation: rotar 2s linear infinite;
+}
+
+.skill img {
+  z-index: 2;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 858px) {
+  .div_historia {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 5%;
+  }
+
+  .div_sobremi {
+    max-width: 100%;
+    height: 105%;
+  }
+
+  .card {
+    background: var(--border-color);
+    width: auto;
+    height: 105%;
+    padding: 5px;
+    border-radius: 16px;
+  }
+
+  .card-body {
+    padding: 2%;
+    text-align: justify;
+    background: var(--card-color);
+    width: auto;
+    color: white;
+    border-radius: 12px;
+    height: 100%;
+  }
+
+  .txt_descripcion {
+    font-size: 150%;
+  }
+
+  .div_skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background: var(--card-color);
+    width: auto;
+    height: 100%;
+    color: white;
+    border-radius: 12px;
+    justify-items: center;
+  }
+
+  .span_myskill {
+    font-size: 140%;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 180%;
+  }
+ 
+  .skill {
+    height: 130px;
+    width: 130px;
+  }
+  
+  .skill:hover {
+    box-shadow: 0px 0px 25px #da05e1;
+  }
+
+  
+  .skill::before {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, #f06 40%, #4a90e2 60%);
+  }
+  
+  .skill::after {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #f0eeee;
+    border-radius: 10%;
+  }
+  
+}
+
+@media (max-width: 952px) {
+  .div_historia {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 7%;
+  }
+
+  .div_sobremi {
+    max-width: auto;
+    height: 150%;
+  }
+
+  .card {
+    height: 110%;
+    margin-bottom: 10%;
+  }
+
+  .card-body {
+    padding: 2%;
+    text-align: justify;
+    background: var(--card-color);
+    width: auto;
+    color: white;
+    border-radius: 12px;
+    height: 100%;
+  }
+
+  .txt_descripcion {
+    font-size: 150%;
+  }
+
+  .div_skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background: var(--card-color);
+    width: auto;
+    height: 100%;
+    color: white;
+    border-radius: 12px;
+    justify-items: center;
+  }
+
+  .span_myskill {
+    font-size: 140%;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 180%;
+  }
+ 
+  .skill {
+    height: 130px;
+    width: 130px;
+  }
+  
+  .skill:hover {
+    box-shadow: 0px 0px 25px #da05e1;
+  }
+
+  
+  .skill::before {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to right, #f06 40%, #4a90e2 60%);
+  }
+  
+  .skill::after {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #f0eeee;
+    border-radius: 10%;
+  }
+
+  .div_titulo_sobremi{
+    margin: 30% 0 20%;
+    font-size: 25px;
+  }
+}
+
+.card {
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.card.animated {
+  opacity: 1;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(90px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
